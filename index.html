@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Expanding Cards</title>
+</head>
+<body>
+
+    <section class="hero__container ">
+        <div class=" showcase " dir="rtl">
+        <header>
+            <h2 class="logo">مكة المكرمة</h2>
+            <div class="toggle"></div>
+        </header>
+
+        <video src="video/mecca.mp4" muted autoplay="true" loop="true"></video>
+        <div class="hero__text">
+            <h1>أولى إهتماماتنا</h1>
+            <h3>العناية بالحرمين الشريفين</h3>
+            <p> تاريخ من الإهتمام الإسلامي بتقديم الخدمات للحجاج والمعتمرين وبالبناء والتوسعة وتسهيل سبل الوصول إليها</p>
+        
+        </div>
+        <div class="overlay"></div>
+
+      
+      </div>
+    <div class="menu">
+        <ul dir="rtl">
+            <li><a href="#">الرئيسية</a></li>
+            <li><a href="#readers" >القراء</a></li>
+            <li><a href="#history" >صور تاريخية</a></li>
+            <li><a href="#">الموقع</a></li>
+        </ul>
+    </div>
+ 
+    </section>
+
+
+    
+    <section class="audio" id="readers">
+        <div class="audio__wrapper">
+            <div class="audio__container">
+                <header>
+                    <h1>أصوات عُرفت في بيت الله الحرام</h1>
+                    <p>حرصنا على تقديم أكثر القراءات إستماعاً لأئمة المسجد الحرام</p>
+                    <nav>
+                        <ul class="audio__left">
+                            <li><a href="#">الأقدم</a></li>
+                            <li><a href="#">الأحدث</a></li>
+                            <li><a href="#">الأكثر إستماعاً</a></li>
+                        </ul>
+                        <ul class="audio__right">
+                            <li><a href="#">إسم القارئ</a></li>
+                            <li><a href="#">مقاطع طويلة</a></li>
+                            <li><a href="#">مقاطع قصيرة</a></li>
+                            <li class="autoplay__btn">
+                                <a href="#">
+                                    <label>
+                                          <h5>تشغيل آلي</h5>
+                                         <input type="checkbox" />
+                                          <span></span>
+                                     </label>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </header>
+
+                <div class="body_content" dir="rtl">
+                    <div class="title">
+                        <span></span>
+                        <span>العنوان</span>
+                        <span>القارئ</span>
+                        <span>السنة</span>
+                        <span>الوقت</span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="list">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+
+
+
+
+       <!-- GALAREY -->
+     <section class="galarey" id="history">
+         <h1 class="title">صور مكة المكرمة خلال 100 عام الماضية وحتى 2020</h1>
+    <div class="container">
+        <div class="panel active" style="background-image: url('/image/12.jpg')">
+            <h3>مكة المكرمة 1910م</h3>
+        </div>
+        <div class="panel " style="background-image: url('/image/14.jpg')">
+            <h3>مكة المكرمة 1920م</h3>
+        </div>
+        <div class="panel " style="background-image:url('/image/8.jpg')">
+            <h3>مكة المكرمة 1930م</h3>
+        </div>
+        <div class="panel " style="background-image:url('/image/9.jpg')">
+            <h3>مكة المكرمة 1940م</h3>
+        </div>
+        <div class="panel " style="background-image:url('/image/11.jpg')">
+            <h3>مكة المكرمة 1950م</h3>
+        </div>
+        <div class="panel " style="background-image:url('/image/10.jpg')">
+            <h3>مكة المكرمة 1960م</h3>
+        </div>
+        <div class="panel " style="background-image:url('/image/4.jpg')">
+            <h3>مكة المكرمة 1970م</h3>
+        </div>
+        <div class="panel " style="background-image:url('/image/22.jpg')">
+            <h3>مكة المكرمة 1995م</h3>
+        </div>
+        <div class="panel " style="background-image:url('/image/18.jpg')">
+            <h3>مكة المكرمة 2014م</h3>
+        </div>
+        <div class="panel " style="background-image:url('/image/19.webp')">
+            <h3>مكة المكرمة 2020م</h3>
+        </div>
+    </div>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
